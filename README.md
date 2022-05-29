@@ -55,7 +55,8 @@ Then we are going to loop through all the images.So, firstly we have to convert 
 
 
 
-![carbon (6)](https://user-images.githubusercontent.com/94541869/170849904-3e8c5d64-e6a5-4d40-9955-e528fcf4cb8f.png)
+![Screenshot (105)](https://user-images.githubusercontent.com/94541869/170850811-e608fde2-50e1-450b-a0a3-f4e2b80971f1.png)
+
 
 STEP-3: The third step is to find the matches between our encodings.But we don't have an image to match it with.Now that image will be coming from our webcam.
 So,now let's initialise the webcam.

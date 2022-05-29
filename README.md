@@ -90,3 +90,11 @@ To mark the attendance we will write the name,date and time they arrived.Now to 
 Now open Attendance.csv file in Attendance.py file. 
 
 
+
+
+
+
+
+![Screenshot (107)](https://user-images.githubusercontent.com/94541869/170852244-2239276a-9828-4ab0-9947-99928910ab79.png)
+
+

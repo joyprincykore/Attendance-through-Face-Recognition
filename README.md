@@ -43,8 +43,11 @@ Using those names now we will import the images one by one.imread function is pr
 
 
 ![carbon (5)](https://user-images.githubusercontent.com/94541869/170849647-1c5f5bd1-d7e0-4337-b974-26e34d3b2045.png)
+
 print(classnames)->this will print the image names without its extension(i.e,jpg).
 
 
-STEP-II: Next, we are going to 
+STEP-II: Next, we are going to start with encoding process.So,to do that once we import our image we have to find the encodings for each one of them.To do so,we can create a simple function that will compute all the encodings.
+encodelist=[] --> This is the empty list that will have all the encodings at the end.
+Then we are going to loop through all the images.So, firstly we have to convert image into rgb. So, next step is to find the encodings.And then we just append it to our list.Then to return we use return encodelist. Now to run that we have to call the function.Whenever we complete the encodings,we can print "encodings complete".
 

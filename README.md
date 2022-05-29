@@ -51,3 +51,8 @@ STEP-II: Next, we are going to start with encoding process.So,to do that once we
 encodelist=[] --> This is the empty list that will have all the encodings at the end.
 Then we are going to loop through all the images.So, firstly we have to convert image into rgb. So, next step is to find the encodings.And then we just append it to our list.Then to return we use return encodelist. Now to run that we have to call the function.Whenever we complete the encodings,we can print "encodings complete".
 
+
+
+
+
+![carbon (6)](https://user-images.githubusercontent.com/94541869/170849904-3e8c5d64-e6a5-4d40-9955-e528fcf4cb8f.png)

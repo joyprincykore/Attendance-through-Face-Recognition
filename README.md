@@ -28,7 +28,7 @@ v)Now , it will print the image names present in the folder.
 
 ![carbon (2)](https://user-images.githubusercontent.com/94541869/170849659-64bdbeec-668c-481b-9000-b8bfb2876c92.png)
 
-Using those names now we will import the images one by one.
+Using those names now we will import the images one by one.imread function is present in the opencv library.Now we have to append the images to the new list.Last thing we will do is to append our class name as well.
 
 
 

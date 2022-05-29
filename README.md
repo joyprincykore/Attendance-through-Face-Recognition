@@ -86,3 +86,7 @@ To show the name around the rectangle of the deducted face,we use cv2.putText(im
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/94541869/170850913-66e27964-c4eb-4a12-825e-13b5d7fac38d.png)
 
+To mark the attendance we will write the name,date and time they arrived.Now to use the time we will need the library for time and date so we will say that 'from datetime import datetime'.SO now create an attendance file and call that as Attendance.csv .Inside that file write name,date,time.
+Now open Attendance.csv file in Attendance.py file. 
+
+

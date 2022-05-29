@@ -69,3 +69,13 @@ Now again convert the image into rgb.Next step is to find the encodings of our w
 
 ![carbon (7)](https://user-images.githubusercontent.com/94541869/170850287-04f1c38e-93fd-4639-9717-d04fc073e1b5.png)
 
+
+Now for finding the matches what we will do is, we will iterate through all the faces that we have found in our current frame and then we will compare all these faces with all the encodings that we have found before.Next we have to find the distance between the faces(lowest distance will be the best match).So, what we have to do is find the lowest elements in our list and that will be our best match.Now, we get to know who the person is.So, at the end we can simply display a bounding box around the person and display his/her name.
+
+
+
+
+
+
+
+![carbon (8)](https://user-images.githubusercontent.com/94541869/170850755-949ec5a8-21a0-483c-b702-ea9d6f521465.png)

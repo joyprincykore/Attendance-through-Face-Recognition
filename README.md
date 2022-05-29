@@ -56,3 +56,16 @@ Then we are going to loop through all the images.So, firstly we have to convert 
 
 
 ![carbon (6)](https://user-images.githubusercontent.com/94541869/170849904-3e8c5d64-e6a5-4d40-9955-e528fcf4cb8f.png)
+
+STEP-3: The third step is to find the matches between our encodings.But we don't have an image to match it with.Now that image will be coming from our webcam.
+So,now let's initialise the webcam.
+Now we write while loop to get each frame one by one. success, img = cap.read()-->This will give us our image.
+imgS = cv2.resize(img,(0,0),None,0.25,0.25)-->now because we are doing this in real time, what we want to do is to reduce the size of our image because because this will help us in speeding the process.
+Now again convert the image into rgb.Next step is to find the encodings of our web cam.Now, in the web cam image we can find multiple faces,so for that we are going to find the location of our faces and send these locations to our encoding function.
+
+
+
+
+
+![carbon (7)](https://user-images.githubusercontent.com/94541869/170850287-04f1c38e-93fd-4639-9717-d04fc073e1b5.png)
+

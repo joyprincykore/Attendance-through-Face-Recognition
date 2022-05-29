@@ -71,8 +71,13 @@ Now again convert the image into rgb.Next step is to find the encodings of our w
 ![carbon (7)](https://user-images.githubusercontent.com/94541869/170850287-04f1c38e-93fd-4639-9717-d04fc073e1b5.png)
 
 
-Now for finding the matches what we will do is, we will iterate through all the faces that we have found in our current frame and then we will compare all these faces with all the encodings that we have found before.Next we have to find the distance between the faces(lowest distance will be the best match).So, what we have to do is find the lowest elements in our list and that will be our best match.Now, we get to know who the person is.So, at the end we can simply display a bounding box around the person and display his/her name.
-
+Now for finding the matches what we will do is, we will iterate through all the faces that we have found in our current frame and then we will compare all these faces with all the encodings that we have found before.Next we have to find the distance between the faces(lowest distance will be the best match).So, what we have to do is find the lowest elements in our list and that will be our best match.Now, we get to know who the person is.So, at the end we can simply display a bounding box around the person and display his/her name.To open the web cam and to scan the face we use cv2.imshow('Webcam',img)
+    cv2.waitKey(1)
+So in order to create a rectangle,firstly we have to find the location using the following code:
+y1,x2,y2,x1 = faceLoc
+y1, x2, y2, x1 = y1*4,x2*4,y2*4,x1*4 
+So,then we are going to draw the rectangle around the webcam face. cv2.rectangle(img,(x1,y1),(x2,y2),(0,255,0),2)
+To show the name around the rectangle of the deducted face,we use cv2.putText(img,name,(x1+6,y2-6),cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
 
 
 

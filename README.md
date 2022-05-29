@@ -44,4 +44,6 @@ Using those names now we will import the images one by one.imread function is pr
 
 ![carbon (5)](https://user-images.githubusercontent.com/94541869/170849647-1c5f5bd1-d7e0-4337-b974-26e34d3b2045.png)
 
+print(classnames)->this will print the image names without its extension(i.e,jpg).
+
 

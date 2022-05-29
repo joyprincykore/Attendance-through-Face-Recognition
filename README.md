@@ -9,7 +9,25 @@ ii)And then create a list of all images that we will import.
 iii)writing of all the names of the images.(To display the names of the images in the output.)
 iv)Now what we will do is we will grab the list of images in the ImageAttendance Folder.
 v)Now , it will print the image names present in the folder.
-![carbon (3)](https://user-images.githubusercontent.com/94541869/170849594-7bfda91f-e5ac-4241-ac23-ff5f5f8525b0.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![carbon (2)](https://user-images.githubusercontent.com/94541869/170849659-64bdbeec-668c-481b-9000-b8bfb2876c92.png)
+
 Using those names now we will import the images one by one.
 
 
